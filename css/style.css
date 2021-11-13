@@ -1,16 +1,31 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem; /*56px*/
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
+  /* Text */
+  --pale-violet: hsl(276, 100%, 81%);
+  --moderate-violet: hsl(276, 55%, 52%);
+  --desaturated-violet: hsl(271, 15%, 43%);
+  --grayish-blue: hsl(206, 6%, 79%);
+  --very-dark: hsl(271, 36%, 24%);
+  --dark-grayish: hsl(270, 7%, 64%);
+
+  /* gradient */
+  --light-magenta: hsl(293, 100%, 63%);
+  --light-violet: hsl(264, 100%, 61%);
+
+  /* background */
+  --white: hsl(0, 0%, 100%);
+  --light-grayish: hsl(270, 20%, 96%);
+  --sub-btn-back: hsl(271, 36%, 24%);
+  --radio-btn-outline: hsl(289, 100%, 72%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Rubik", sans-serif;
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --normal-font-size: 0.938rem;
@@ -102,4 +117,13 @@ img {
 
 .grid {
   display: grid;
+}
+
+.gradient {
+  background: rgb(136, 56, 255);
+  background: linear-gradient(
+    167deg,
+    rgba(136, 56, 255, 1) 0%,
+    rgba(59, 0, 66, 1) 99%
+  );
 }
