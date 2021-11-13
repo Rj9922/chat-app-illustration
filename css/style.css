@@ -229,6 +229,6 @@ img {
   justify-content: space-between;
   align-items: flex-end;
   height: inherit;
-  background: lightblue;
+  /* background: lightblue; */
   padding: 5px 5px 16px 5px;
 }
